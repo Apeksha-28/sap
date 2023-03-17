@@ -64,8 +64,8 @@ import javax.mail.internet.MimeMessage;
     	 	            // Create a message and set the recipient, subject, and content
     	 	            Message msg = new MimeMessage(session);
     	 	            msg.setFrom(new InternetAddress(username));
-    	 	            msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(pratik.pingale@virtuososofttech.com));
-    	 	          //  msg.setRecipients(Message.RecipientType.CC, InternetAddress.parse("pratik.pingle@vpel.in ,mahesh.ghule@virtuososofttech.com ,ajinkya.dahale@virtuososofttech.com"));
+    	 	            msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse("pratik.pingale@virtuososofttech.com"));
+    	 	            msg.setRecipients(Message.RecipientType.CC, InternetAddress.parse("pratik.pingle@vpel.in ,mahesh.ghule@virtuososofttech.com ,ajinkya.dahale@virtuososofttech.com"));
     	 	            msg.setSubject("Website Status Report");
     	 	            msg.setText(message); 
     	 	            // Send the message
