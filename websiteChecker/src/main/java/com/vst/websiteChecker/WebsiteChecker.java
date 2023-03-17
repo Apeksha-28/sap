@@ -52,8 +52,8 @@ import javax.mail.internet.MimeMessage;
     	 	        props.put("mail.smtp.auth", "true");
     	 	        props.put("mail.smtp.starttls.enable", "false");
     	 	        // Set the email account credentials
-    	 	        final String username = "apekshavirtuososofttech@gmail.com";
-    	 	        final String password = "Apeksha@123";
+    	 	        final String username = "apeksha.bansod@virtuososofttech.com";
+    	 	        final String password = "Virtuoso@123";
     	 	        // Create a session with the email account
     	 	        Session session = Session.getInstance(props, new javax.mail.Authenticator() {
     	 	            protected PasswordAuthentication getPasswordAuthentication() {
