@@ -63,7 +63,6 @@ import javax.mail.internet.MimeMessage;
     	 	        try {
     	 	            // Create a message and set the recipient, subject, and content
     	 	            Message msg = new MimeMessage(session);
-				InternetAddress emailAddress = new InternetAddress("pratik.pingle@vpel.in");
 
     	 	            msg.setFrom(new InternetAddress(username));
     	 	            msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse("pratik.pingale@virtuososofttech.com"));
